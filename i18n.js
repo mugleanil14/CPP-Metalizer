@@ -1,0 +1,290 @@
+/* ===== Bilingual content store ===== */
+window.I18N = {
+  ru: {
+    /* ---------- common ---------- */
+    brand_tag:"FLEX FILMS RUS",
+    email:"marketing.russia@flexfilm.com",
+    site:"flexfilm.com",
+    btn_lang_ru:"RU", btn_lang_en:"EN",
+    btn_prev:"← Назад", btn_next:"Вперёд →",
+    btn_print:"⤓ PDF", btn_full:"⛶",
+    /* ---------- S1 cover ---------- */
+    s1:{
+      crumb_right:"РОССИЯ · CPP",
+      for:"РЕШЕНИЯ FLEXCPP™ · ОБЗОР ПРОДУКТА",
+      title_l1:"FLEX", title_o:"CPP", title_tm:"™",
+      title_l2:"Металлизированные",
+      title_l3:"решения",
+      lead:"Премиальная гибкая упаковка нового поколения — производство мирового уровня, технология AluBond™ и широкий портфель специализированных CPP-плёнок от Флекс Филмс Рус.",
+      meta:[
+        ["Производство","BOBST Metallizer"],
+        ["Мощность завода","51 000 МТ / год"],
+        ["Технология","AluBond™"]
+      ]
+    },
+    /* ---------- S2 capabilities ---------- */
+    s2:{
+      crumb:"О КОМПАНИИ · ВОЗМОЖНОСТИ",
+      eyebrow:"О КОМПАНИИ",
+      title_a:"Флекс Филмс Рус —",
+      title_b:"ваш надёжный",
+      title_orange:"партнёр",
+      title_c:"в гибкой упаковке",
+      stats:[
+        ["25","+","Лет экспертизы","Опыт глобальной группы UFlex в производстве плёнок премиум-класса."],
+        ["9","","Стран присутствия","Производственные площадки в Индии, России, Мексике, Польше, Египте, ОАЭ, США, Венгрии и Нигерии."],
+        ["51 000","МТ/год","Общая мощность завода","BOPET 33 000 + CPP 18 000 МТ в год — стабильность поставок."],
+        ["15","+","Спец. марок CPP","Широкий портфель для конкретных применений и линий."]
+      ],
+      machine_tag:"КЛЮЧЕВОЕ ОБОРУДОВАНИЕ",
+      machine_title:"BOBST",
+      machine_sub:"Металлайзер мирового класса с собственной технологией AluBond™ — стабильная адгезия металла, повышенные барьерные свойства и премиальный внешний вид готового ламината.",
+      badges:["ALUBOND™","BOBST METALLIZER","RU PRODUCTION"]
+    },
+    /* ---------- S3 CPP ---------- */
+    s3:{
+      crumb:"CPP-ПЛЁНКИ · ОБЗОР МАТЕРИАЛА",
+      eyebrow:"ЧТО ТАКОЕ CPP",
+      title_a:"Универсальная плёнка",
+      title_b:"для",
+      title_orange:"гибкой упаковки",
+      lead_html:"CPP-плёнка сочетает <b>термосвариваемость</b>, <b>прозрачность</b> и <b>совместимость с ламинацией</b> — практичная база для современных ламинатов и упаковочных решений на высокоскоростных линиях.",
+      feats:[
+        ["✓","Надёжный сварной шов","Внутренний слой для стабильной герметизации."],
+        ["✓","Совместимость с ламинацией","Отличная адгезия в дуплекс / триплекс структурах."],
+        ["✓","Стабильность переработки","Предсказуемая работа на VFFS / HFFS машинах."],
+        ["✓","Премиальный внешний вид","Прозрачность и блеск для лучшей выкладки на полке."]
+      ],
+      struct_title:"СТРУКТУРА CPP",
+      layers:[
+        ["Внешний слой","Печатный / обработанный"],
+        ["Основной слой","Барьер и жёсткость"],
+        ["Внутренний слой","Термосвариваемый"]
+      ]
+    },
+    /* ---------- S4 metallizer ---------- */
+    s4:{
+      crumb:"МЕТАЛЛИЗИРОВАННАЯ ПЛЁНКА · FLEXFILMET™",
+      eyebrow:"МЕТАЛЛАЙЗЕР BOBST + ALUBOND™",
+      title_a:"Стабильная",
+      title_orange:"адгезия металла",
+      lead_html:"Флекс Филмс Рус использует металлайзер <b style='color:#fff'>BOBST</b> с технологией <b style='color:#FF8A1F'>AluBond™</b> — для стабильной адгезии металла к плёнке, барьерных свойств и премиального внешнего вида готового ламината.",
+      machine_tag:"BOBST METALLIZER",
+      machine_title:"Премиум-класс металлизации",
+      stats:[
+        ["AluBond","ТЕХНОЛОГИЯ АДГЕЗИИ"],
+        ["15+","МАРОК CPP"],
+        ["RU","ЛОКАЛЬНОЕ ПРОИЗВОДСТВО"]
+      ],
+      alu_tag:"ЧТО ДАЁТ ВАМ ALUBOND™",
+      alu_title:"Премиальный эффект на полке",
+      bullets:[
+        ["Стабильная адгезия","металла к плёнке — для надёжности готового ламината."],
+        ["Барьерные свойства","— поддержка защиты аромата и свежести продукта."],
+        ["Премиальный внешний вид","— равномерный металлический блеск."],
+        ["Стабильная переработка","— надёжная работа на высокоскоростных линиях."]
+      ],
+      impact:"★ Сильнее бренд — заметнее на полке"
+    },
+    /* ---------- S5 portfolio ---------- */
+    s5:{
+      crumb:"ПОРТФЕЛЬ · FLEXCPP™ · 13 МАРОК",
+      eyebrow:"ИНТЕРАКТИВНЫЙ ПОРТФЕЛЬ FLEXCPP™",
+      title_a:"Специализированные марки CPP",
+      title_orange:" для каждой задачи упаковки",
+      hint:"Нажмите на карту марки — она перевернётся и покажет данные TDS",
+      back_lbl:"ТЕХ. ДАННЫЕ (TDS)",
+      lbl_thk:"Толщина", lbl_sit:"SIT", lbl_seal:"Прочн. шва", lbl_density:"Плотность",
+      lbl_struct:"Структура плёнки", lbl_features:"Ключевые свойства", lbl_apps:"Применение",
+      unit_um:"мкм", unit_seal:"г/25мм", unit_density:"г/см³",
+      flip_front:"Открыть TDS", flip_back:"Назад"
+    },
+    /* ---------- S6 metallizable CPP ---------- */
+    s6:{
+      crumb:"МЕТАЛЛИЗИРУЕМАЯ CPP · C-CPM · ПРИМЕНЕНИЕ",
+      pill:"METALLIZED CPP · C-CPM",
+      title_a:"C-CPM — металлизируемая CPP для",
+      title_orange:"премиальной кондитерки и выпечки",
+      lead_html:"<b>C-CPM</b> — соэкструдированная база под металлизацию на металлайзере <b>BOBST</b> с технологией <b style='color:#E85D04'>AluBond™</b>. Превосходная адгезия металла, отличная свариваемость и яркий металлический блеск — для премиального вида упаковки на полке.",
+      props:[
+        ["★","Стабильная металлизация","Премиальный блеск, равномерный внешний вид."],
+        ["◆","Адгезия AluBond","Для повышения стабильности готового ламината."],
+        ["▲","Барьерные свойства","Сохранение аромата и свежести продукта."],
+        ["●","Надёжная свариваемость","Стабильная работа на упаковочных линиях."]
+      ],
+      case_tag:"ПРИМЕНЕНИЕ / СТРУКТУРА",
+      case_title:"Металлизированный ламинат",
+      struct_lbl:"ТИПОВАЯ СТРУКТУРА ЛАМИНАТА",
+      benefits:[
+        ["Превосходная адгезия металла", "стабильный металлический слой после металлизации."],
+        ["Стабильное локальное производство", "плёнок в России."],
+        ["Премиальный внешний вид", "упаковки благодаря AluBond™."],
+        ["Совместимость с линиями", "ламинации и высокоскоростной упаковки."]
+      ]
+    },
+    /* ---------- S7 low-SIT downgauging ---------- */
+    s7:{
+      crumb:"ОПТИМИЗАЦИЯ ЛАМИНАТА · НИЗКАЯ SIT",
+      eyebrow:"DOWNGAUGING · СНИЖЕНИЕ ТОЛЩИНЫ",
+      title_a:"Сэндвич-печенье",
+      title_orange:" и снеки",
+      title_b:"— переход на BOPP / CPP",
+      title_c:"с акцентом на низкую SIT",
+      lead_html:"Структуру <b>PET / BOPP</b> можно оптимизировать переходом на <b>BOPP / CPP</b>. Ключевые свойства CPP — <b style='color:#E85D04'>низкая SIT</b>, прочность шва и стабильная работа на высокоскоростных линиях.",
+      now_tag:"ТЕКУЩАЯ СТРУКТУРА",
+      now_title:"PET / BOPP",
+      now_desc:"Стандартная структура с ограничениями по толщине и температурному диапазону запайки.",
+      new_tag:"ПРЕДЛОЖЕНИЕ FLEXCPP™",
+      new_title:"BOPP / CPP",
+      new_desc:"Низкая SIT, широкий диапазон запайки, прочный сварной шов и совместимость с HFFS / VFFS линиями.",
+      arrow_lbl:"DOWNGAUGE",
+      grades:[
+        ["C-CLL","Прозрачная CPP с ультранизкой SIT","Идеально для HFFS/VFFS машин. Широкий температурный диапазон и прочность шва."],
+        ["C-CHL","CPP с низкой SIT и высокой прочностью шва","Превосходная герметичность шва, стабильность на высоких скоростях."]
+      ],
+      foot_html:"<span>Низкая SIT</span> — критичный параметр для скоростной упаковки печенья и снеков. FLEXCPP™ позволяет подобрать решение под требуемое окно сварки.",
+      foot_btn:"Готовы предоставить TDS"
+    }
+  },
+  /* ===================================================================
+     ENGLISH
+     =================================================================== */
+  en:{
+    brand_tag:"FLEX FILMS RUS",
+    email:"marketing.russia@flexfilm.com",
+    site:"flexfilm.com",
+    btn_lang_ru:"RU", btn_lang_en:"EN",
+    btn_prev:"← Prev", btn_next:"Next →",
+    btn_print:"⤓ PDF", btn_full:"⛶",
+    s1:{
+      crumb_right:"RUSSIA · CPP",
+      for:"FLEXCPP™ SOLUTIONS · PRODUCT OVERVIEW",
+      title_l1:"FLEX", title_o:"CPP", title_tm:"™",
+      title_l2:"Metallized",
+      title_l3:"Solutions",
+      lead:"Next-generation premium flexible packaging — world-class manufacturing, AluBond™ technology and a broad portfolio of specialized CPP films from Flex Films Russia.",
+      meta:[
+        ["Manufacturing","BOBST Metallizer"],
+        ["Plant Capacity","51,000 MT / year"],
+        ["Technology","AluBond™"]
+      ]
+    },
+    s2:{
+      crumb:"ABOUT · CAPABILITIES",
+      eyebrow:"ABOUT THE COMPANY",
+      title_a:"Flex Films Russia —",
+      title_b:"your trusted",
+      title_orange:"partner",
+      title_c:"in flexible packaging",
+      stats:[
+        ["25","+","Years of expertise","Global UFlex group experience in premium film manufacturing."],
+        ["9","","Countries","Production sites in India, Russia, Mexico, Poland, Egypt, UAE, USA, Hungary and Nigeria."],
+        ["51,000","MT/yr","Total plant capacity","BOPET 33,000 + CPP 18,000 MT per annum — supply stability."],
+        ["15","+","Specialized CPP grades","Wide portfolio for specific applications and packaging lines."]
+      ],
+      machine_tag:"KEY EQUIPMENT",
+      machine_title:"BOBST",
+      machine_sub:"World-class metallizer with proprietary AluBond™ technology — stable metal adhesion, enhanced barrier properties and a premium look of the finished laminate.",
+      badges:["ALUBOND™","BOBST METALLIZER","RU PRODUCTION"]
+    },
+    s3:{
+      crumb:"CPP FILMS · MATERIAL OVERVIEW",
+      eyebrow:"WHAT IS CPP",
+      title_a:"A versatile film",
+      title_b:"for",
+      title_orange:"flexible packaging",
+      lead_html:"CPP film combines <b>heat-sealability</b>, <b>transparency</b> and <b>lamination compatibility</b> — a practical base for modern laminates and packaging solutions on high-speed lines.",
+      feats:[
+        ["✓","Reliable seal","Inner layer for stable hermetic sealing."],
+        ["✓","Lamination compatibility","Excellent adhesion in duplex / triplex structures."],
+        ["✓","Stable converting","Predictable run on VFFS / HFFS machines."],
+        ["✓","Premium look","Clarity and gloss for outstanding shelf appearance."]
+      ],
+      struct_title:"CPP STRUCTURE",
+      layers:[
+        ["Outer Layer","Print / treated side"],
+        ["Core Layer","Barrier & stiffness"],
+        ["Inner Layer","Heat-seal layer"]
+      ]
+    },
+    s4:{
+      crumb:"METALLIZED FILM · FLEXFILMET™",
+      eyebrow:"BOBST METALLIZER + ALUBOND™",
+      title_a:"Consistent",
+      title_orange:"metal adhesion",
+      lead_html:"Flex Films Russia operates a <b style='color:#fff'>BOBST</b> metallizer with <b style='color:#FF8A1F'>AluBond™</b> technology — for consistent metal-to-film adhesion, barrier properties and a premium appearance of the finished laminate.",
+      machine_tag:"BOBST METALLIZER",
+      machine_title:"Premium-class metallization",
+      stats:[
+        ["AluBond","ADHESION TECH"],
+        ["15+","CPP GRADES"],
+        ["RU","LOCAL PRODUCTION"]
+      ],
+      alu_tag:"WHAT ALUBOND™ DELIVERS",
+      alu_title:"Premium shelf impact",
+      bullets:[
+        ["Stable metal adhesion","to film — supporting laminate reliability."],
+        ["Barrier properties","— supporting aroma and freshness protection."],
+        ["Premium appearance","— uniform metallic gloss."],
+        ["Stable converting","— reliable run on high-speed lines."]
+      ],
+      impact:"★ Stronger brand — more visible on the shelf"
+    },
+    s5:{
+      crumb:"PORTFOLIO · FLEXCPP™ · 13 GRADES",
+      eyebrow:"INTERACTIVE FLEXCPP™ PORTFOLIO",
+      title_a:"Specialized CPP grades",
+      title_orange:" for every packaging task",
+      hint:"Tap any grade card — it flips to reveal its TDS data",
+      back_lbl:"TECHNICAL DATA (TDS)",
+      lbl_thk:"Thickness", lbl_sit:"SIT", lbl_seal:"Seal strength", lbl_density:"Density",
+      lbl_struct:"Film structure", lbl_features:"Key features", lbl_apps:"Applications",
+      unit_um:"µm", unit_seal:"g/25mm", unit_density:"g/cc",
+      flip_front:"Open TDS", flip_back:"Back"
+    },
+    s6:{
+      crumb:"METALLIZABLE CPP · C-CPM · APPLICATION",
+      pill:"METALLIZED CPP · C-CPM",
+      title_a:"C-CPM — metallizable CPP for",
+      title_orange:"premium confectionery & bakery",
+      lead_html:"<b>C-CPM</b> is a co-extruded metallizable base film run on our <b>BOBST</b> metallizer with <b style='color:#E85D04'>AluBond™</b> technology. Superior metal anchorage, excellent sealing and brilliant metallic gloss — for a premium pack appearance on shelf.",
+      props:[
+        ["★","Stable metallization","Premium gloss, uniform appearance."],
+        ["◆","AluBond adhesion","Supporting finished-laminate stability."],
+        ["▲","Barrier properties","Aroma and freshness retention."],
+        ["●","Reliable sealing","Stable run on packaging lines."]
+      ],
+      case_tag:"APPLICATION / STRUCTURE",
+      case_title:"Metallized laminate",
+      struct_lbl:"TYPICAL LAMINATE STRUCTURE",
+      benefits:[
+        ["Superior metal anchorage", "stable metal layer after metallization."],
+        ["Stable local production", "of films in Russia."],
+        ["Premium pack appearance", "thanks to AluBond™."],
+        ["Line compatibility", "with lamination & high-speed packaging."]
+      ]
+    },
+    s7:{
+      crumb:"LAMINATE OPTIMIZATION · LOW SIT",
+      eyebrow:"DOWNGAUGING · THICKNESS REDUCTION",
+      title_a:"Sandwich biscuits",
+      title_orange:" & snacks",
+      title_b:"— moving to BOPP / CPP",
+      title_c:"with focus on low SIT",
+      lead_html:"A <b>PET / BOPP</b> structure can be optimized by switching to <b>BOPP / CPP</b>. Key CPP properties — <b style='color:#E85D04'>low SIT</b>, seal strength and stable run on high-speed lines.",
+      now_tag:"CURRENT STRUCTURE",
+      now_title:"PET / BOPP",
+      now_desc:"Standard structure with limitations on thickness and seal temperature window.",
+      new_tag:"FLEXCPP™ PROPOSAL",
+      new_title:"BOPP / CPP",
+      new_desc:"Low SIT, wide seal window, strong seal and compatibility with modern HFFS / VFFS lines.",
+      arrow_lbl:"DOWNGAUGE",
+      grades:[
+        ["C-CLL","Clear CPP with ultra-low SIT","Ideal for high-speed HFFS/VFFS machines. Wide seal window and seal strength."],
+        ["C-CHL","CPP with low SIT and high seal strength","Excellent seal integrity, stable at high line speeds."]
+      ],
+      foot_html:"<span>Low SIT</span> is critical for high-speed biscuit & snack packaging — FLEXCPP™ supports development toward the required sealing window.",
+      foot_btn:"TDS available on request"
+    }
+  }
+};

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 60">
+  <defs>
+    <linearGradient id="og" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#FF8A1F"/>
+      <stop offset="1" stop-color="#E85D04"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect x="6" y="10" width="44" height="44" rx="8" fill="url(#og)"/>
+    <text x="28" y="42" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="26" fill="#fff" text-anchor="middle">FF</text>
+    <text x="60" y="34" font-family="Helvetica, Arial, sans-serif" font-weight="900" font-size="22" fill="#111" letter-spacing="1">FLEX<tspan fill="#E85D04">FILM</tspan></text>
+    <text x="60" y="50" font-family="Helvetica, Arial, sans-serif" font-weight="500" font-size="9" fill="#666" letter-spacing="3">F L E X I B L E   P A C K A G I N G</text>
+  </g>
+</svg>
